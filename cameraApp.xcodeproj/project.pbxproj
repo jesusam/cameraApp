@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071DB09C18F59A050063DAB9 /* catPic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09518F59A050063DAB9 /* catPic0.jpg */; };
+		071DB09D18F59A050063DAB9 /* catPic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09618F59A050063DAB9 /* catPic1.jpg */; };
+		071DB09E18F59A050063DAB9 /* catPic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09718F59A050063DAB9 /* catPic2.jpg */; };
+		071DB09F18F59A050063DAB9 /* catPic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09818F59A050063DAB9 /* catPic3.jpg */; };
+		071DB0A018F59A050063DAB9 /* catPic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09918F59A050063DAB9 /* catPic4.jpg */; };
+		071DB0A118F59A050063DAB9 /* catPic9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09A18F59A050063DAB9 /* catPic9.jpg */; };
+		071DB0A218F59A050063DAB9 /* catPic5678.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071DB09B18F59A050063DAB9 /* catPic5678.jpg */; };
 		074A40C318F46EBB007383C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A40C218F46EBB007383C7 /* Foundation.framework */; };
 		074A40C518F46EBB007383C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A40C418F46EBB007383C7 /* CoreGraphics.framework */; };
 		074A40C718F46EBB007383C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A40C618F46EBB007383C7 /* UIKit.framework */; };
@@ -22,6 +29,9 @@
 		074A40E418F46EBB007383C7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A40C818F46EBB007383C7 /* CoreData.framework */; };
 		074A40EC18F46EBB007383C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074A40EA18F46EBB007383C7 /* InfoPlist.strings */; };
 		074A40EE18F46EBB007383C7 /* cameraAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A40ED18F46EBB007383C7 /* cameraAppTests.m */; };
+		074A40F918F46FBA007383C7 /* CASplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A40F818F46FBA007383C7 /* CASplashScreenViewController.m */; };
+		074A40FC18F47066007383C7 /* CASplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A40FB18F47066007383C7 /* CASplashScreen.m */; };
+		0752CD8618F4E76F00BA5FDD /* CAGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0752CD8518F4E76F00BA5FDD /* CAGalleryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071DB09518F59A050063DAB9 /* catPic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic0.jpg; sourceTree = "<group>"; };
+		071DB09618F59A050063DAB9 /* catPic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic1.jpg; sourceTree = "<group>"; };
+		071DB09718F59A050063DAB9 /* catPic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic2.jpg; sourceTree = "<group>"; };
+		071DB09818F59A050063DAB9 /* catPic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic3.jpg; sourceTree = "<group>"; };
+		071DB09918F59A050063DAB9 /* catPic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic4.jpg; sourceTree = "<group>"; };
+		071DB09A18F59A050063DAB9 /* catPic9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic9.jpg; sourceTree = "<group>"; };
+		071DB09B18F59A050063DAB9 /* catPic5678.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catPic5678.jpg; sourceTree = "<group>"; };
 		074A40BF18F46EBB007383C7 /* cameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		074A40C218F46EBB007383C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		074A40C418F46EBB007383C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,12 @@
 		074A40E918F46EBB007383C7 /* cameraAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cameraAppTests-Info.plist"; sourceTree = "<group>"; };
 		074A40EB18F46EBB007383C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		074A40ED18F46EBB007383C7 /* cameraAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraAppTests.m; sourceTree = "<group>"; };
+		074A40F718F46FBA007383C7 /* CASplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASplashScreenViewController.h; sourceTree = "<group>"; };
+		074A40F818F46FBA007383C7 /* CASplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASplashScreenViewController.m; sourceTree = "<group>"; };
+		074A40FA18F47066007383C7 /* CASplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASplashScreen.h; sourceTree = "<group>"; };
+		074A40FB18F47066007383C7 /* CASplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASplashScreen.m; sourceTree = "<group>"; };
+		0752CD8418F4E76F00BA5FDD /* CAGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGalleryViewController.h; sourceTree = "<group>"; };
+		0752CD8518F4E76F00BA5FDD /* CAGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGalleryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +140,12 @@
 			children = (
 				074A40D318F46EBB007383C7 /* CAAppDelegate.h */,
 				074A40D418F46EBB007383C7 /* CAAppDelegate.m */,
+				0752CD8418F4E76F00BA5FDD /* CAGalleryViewController.h */,
+				0752CD8518F4E76F00BA5FDD /* CAGalleryViewController.m */,
+				074A40F718F46FBA007383C7 /* CASplashScreenViewController.h */,
+				074A40F818F46FBA007383C7 /* CASplashScreenViewController.m */,
+				074A40FA18F47066007383C7 /* CASplashScreen.h */,
+				074A40FB18F47066007383C7 /* CASplashScreen.m */,
 				074A40D918F46EBB007383C7 /* Images.xcassets */,
 				074A40D618F46EBB007383C7 /* cameraApp.xcdatamodeld */,
 				074A40CB18F46EBB007383C7 /* Supporting Files */,
@@ -127,6 +156,13 @@
 		074A40CB18F46EBB007383C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				071DB09518F59A050063DAB9 /* catPic0.jpg */,
+				071DB09618F59A050063DAB9 /* catPic1.jpg */,
+				071DB09718F59A050063DAB9 /* catPic2.jpg */,
+				071DB09818F59A050063DAB9 /* catPic3.jpg */,
+				071DB09918F59A050063DAB9 /* catPic4.jpg */,
+				071DB09A18F59A050063DAB9 /* catPic9.jpg */,
+				071DB09B18F59A050063DAB9 /* catPic5678.jpg */,
 				074A40CC18F46EBB007383C7 /* cameraApp-Info.plist */,
 				074A40CD18F46EBB007383C7 /* InfoPlist.strings */,
 				074A40D018F46EBB007383C7 /* main.m */,
@@ -229,8 +265,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071DB09C18F59A050063DAB9 /* catPic0.jpg in Resources */,
 				074A40CF18F46EBB007383C7 /* InfoPlist.strings in Resources */,
 				074A40DA18F46EBB007383C7 /* Images.xcassets in Resources */,
+				071DB0A218F59A050063DAB9 /* catPic5678.jpg in Resources */,
+				071DB0A018F59A050063DAB9 /* catPic4.jpg in Resources */,
+				071DB09F18F59A050063DAB9 /* catPic3.jpg in Resources */,
+				071DB09E18F59A050063DAB9 /* catPic2.jpg in Resources */,
+				071DB09D18F59A050063DAB9 /* catPic1.jpg in Resources */,
+				071DB0A118F59A050063DAB9 /* catPic9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +294,10 @@
 			files = (
 				074A40D518F46EBB007383C7 /* CAAppDelegate.m in Sources */,
 				074A40D818F46EBB007383C7 /* cameraApp.xcdatamodeld in Sources */,
+				074A40FC18F47066007383C7 /* CASplashScreen.m in Sources */,
+				0752CD8618F4E76F00BA5FDD /* CAGalleryViewController.m in Sources */,
 				074A40D118F46EBB007383C7 /* main.m in Sources */,
+				074A40F918F46FBA007383C7 /* CASplashScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +494,7 @@
 				074A40F318F46EBB007383C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		074A40F418F46EBB007383C7 /* Build configuration list for PBXNativeTarget "cameraAppTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +503,7 @@
 				074A40F618F46EBB007383C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

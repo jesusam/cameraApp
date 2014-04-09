@@ -7,6 +7,7 @@
 //
 
 #import "CAAppDelegate.h"
+#import "CASplashScreenViewController.h"
 
 @implementation CAAppDelegate
 
@@ -19,6 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [[self window] setRootViewController:[[CASplashScreenViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }
